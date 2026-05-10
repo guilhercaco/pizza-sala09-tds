@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    background: #370D0D;
+    color: #fff;
+    font-family:italiana;
+}
+
+.logo{
+    display: flex;
+    margin: 0;
+    justify-self: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo img[alt="pizza1"]{
+    display:flow-root ;
+    max-width:400px ;
+    max-height: 400px;
+    margin: 0;
+    
+    
+}
+.logo img[alt="logo"]{
+    max-width: 690px;
+    max-height: 386px;
+    margin: 0;
+    
+}
+.logo img[alt="pizza2"]{
+    display: flow-root;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0;
+
+}
+.informacao{
+    display: flex;
+    margin: 0;
+    justify-self: center;
+    align-items: center;
+}
+.informacao img[alt="telefone"]{
+    width: 25px;
+    height: 25px;
+}
+.informacao img[alt="imagens"]{
+    width: 25px;
+    height: 25px;
+}
+.informacao p{
+     font-size: 22px;
+}
+.text p{
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
