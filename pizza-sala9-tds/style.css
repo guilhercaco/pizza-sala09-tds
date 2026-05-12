@@ -94,7 +94,7 @@ body{
 
 .apresentacao{
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .quadrado{
     justify-self: center;
@@ -121,27 +121,67 @@ body{
     text-align: justify;
     text-indent: 50px; 
 }
+
 .mudarinformacao{
     width: 100%;
     height: 50px;
     background: #C62828;
 }
+
 .primeiroSabor{
-   padding-top: 20px;
-   margin: 0;
-   justify-self: center;
+    padding-bottom: 50px;
+    margin: 0;
+    justify-self: center;
 }
 .tradicionais{
+    margin: 0;
     background: #D9D9D9;
-    width: 1400px;
-    height: 550px;
+    width: 1514px;
+    height: 680px;
 }
 .tradicionais h2{
     padding-top: 40px;
-    padding-left:150px;
+    padding-left:100px;
     color: #000;
     font-size:64px;
 }
 .pizza-tradicionais{
     display: flex;
+    margin: 0;
+
+    
+}
+.pizza-tradicionais p{
+    color: #000;
+    font-family: inter;
+    font-size: 24px;
+    padding-left:60px;
+}
+.pizza-tradicionais img[alt="mexicana"]{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    z-index: 1;
+}
+.pizza-tradicionais img[alt="arma"]{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    z-index: 2;
+    width: 350px;
+    height: 350px;
+    top: 1650px;
+}
+.mudarinformacao2{
+    width: 100%;
+    height: 50px;
+    background: #C62828;
+}
+.mudarinformacao3{
+    
+    width: 100%;
+    height: 50px;
+    background: #6A1B9A;
+    position: absolute;
+    bottom: 1950px;
 }
