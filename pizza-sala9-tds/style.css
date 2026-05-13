@@ -263,6 +263,7 @@ body{
     padding-top: 30px;
 }
 .pizza-doce img[alt="pizzadoce"]{
+    justify-self: center;
     position: absolute;
     top: 3465px;
     right: 0;
@@ -346,9 +347,18 @@ body{
 footer{
     background: #000;
 }
-.text1{
-    margin: 0;
+.valeu{
+    display: flex;
 }
-.text1{
+.text1 p{
     margin: 0;
+    padding: 0;
+}
+.text2 p{
+    margin: 0;
+    padding: 0;
+}
+.text3 p{
+    margin: 0;
+    padding: 0;
 }
